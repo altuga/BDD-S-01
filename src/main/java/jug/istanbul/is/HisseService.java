@@ -1,8 +1,4 @@
-package com.kodcu.is;
-
-import jug.istanbul.is.HisseSenet;
-
-
+package jug.istanbul.is;
 
 public class HisseService {
 

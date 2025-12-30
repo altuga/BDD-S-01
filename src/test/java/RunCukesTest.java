@@ -6,12 +6,12 @@
  * We make no guarantees that this code is fit for any purpose. 
  * Visit http://www.pragmaticprogrammer.com/titles/srjcuc for more book information.
 ***/
-import cucumber.api.junit.Cucumber;
-import cucumber.api.CucumberOptions;
-import cucumber.api.SnippetType;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.CucumberOptions.SnippetType;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin="pretty", snippets=SnippetType.CAMELCASE)
+@CucumberOptions(plugin="pretty", snippets=SnippetType.CAMELCASE, glue = "jug.istanbul.is", features = "src/test/resources/senaryolar")
 public class RunCukesTest {
 }

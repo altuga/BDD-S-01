@@ -1,10 +1,9 @@
+package jug.istanbul.is;
 
-package com.kodcu.is;
-
-import cucumber.api.java.tr.Diyelimki;
-import cucumber.api.java.tr.Eğerki;
-import cucumber.api.java.tr.Ozaman;
-import junit.framework.Assert;
+import io.cucumber.java.tr.Diyelimki;
+import io.cucumber.java.tr.Eğerki;
+import io.cucumber.java.tr.Ozaman;
+import org.junit.Assert;
 
 
 public class HisseSenediIslemleriSteps {

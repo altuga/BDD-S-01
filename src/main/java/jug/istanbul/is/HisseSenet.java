@@ -1,5 +1,4 @@
-package com.kodcu.is;
-
+package jug.istanbul.is;
 
 public class HisseSenet {
 
@@ -11,7 +10,6 @@ public class HisseSenet {
     public HisseSenet(String isim, double threshold) {
         this.isim = isim;
         this.esikDeger = threshold;
-
     }
 
     public void islem(double fiyat) {
